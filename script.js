@@ -13,7 +13,6 @@ const playlists = {
     ],
     
     "KK": [
-        "./songs/KK/ Ajab Si.mp3",
         "./songs/KK/Dil Ibaadat.mp3",
         "./songs/KK/Haan Tu Hain.mp3",
         "./songs/KK/Khuda Jaane.mp3",
