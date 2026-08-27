@@ -4,35 +4,45 @@ console.log("Lets start Javascript");
 
 const playlists = {
     "Arijit Singh": [
-        "./songs/Arijit%20Singh/Agar%20Tum%20Saath%20Ho%20Tamasha%20320%20Kbps.mp3",
-        "./songs/Arijit%20Singh/Apna%20Bana%20Le%20Bhediya%20128%20Kbps.mp3",
-        "./songs/Arijit%20Singh/Darkhaast%20Shivaay%20320%20Kbps.mp3",
-        "./songs/Arijit%20Singh/Gehra%20Hua%20Dhurandhar%20320%20Kbps.mp3",
-        "./songs/Arijit%20Singh/Phir%20Bhi%20Tumko%20Chaahunga%20Half%20Girlfriend%20128%20Kbps.mp3",
-        "./songs/Arijit%20Singh/Samjhawan%20Humpty%20Sharma%20Ki%20Dulhania%20320%20Kbps.mp3"
+        "./songs/Arijit Singh/Agar Tum Saath Ho Tamasha.mp3",
+        "./songs/Arijit Singh/Apna Bana Le Bhediya.mp3",
+        "./songs/Arijit Singh/Darkhaast Shivaay.mp3",
+        "./songs/Arijit Singh/Gehra Hua Dhurandhar.mp3",
+        "./songs/Arijit Singh/Phir Bhi Tumko Chaahunga Half Girlfriend.mp3",
+        "./songs/Arijit Singh/Samjhawan Humpty Sharma Ki Dulhania.mp3"
     ],
-
+    
     "KK": [
-        "./songs/KK/Aashiqui_2_-_Piya_Aaye_Na_(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Ajab_Si_(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Dil_Ibaadat_(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Kya_Mujhe_Pyar_Hai._(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Labon_Ko._(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Pal._(mp3.pm).mp3",
-        "./songs/KK/K.K._-_Tu_Hi_Meri_Shab_Hai_Part_1_(mp3.pm).mp3",
-        "./songs/KK/K.K_Krishnakumar_Kunnath_Shilpa_Rao_-_Khuda_Jaane_(mp3.pm).mp3",
-        "./songs/KK/Pritam_KK_-_Haan_Tu_Hain_(mp3.pm).mp3",
-        "./songs/KK/Pritam_KK_-_Zara_Sa_(mp3.pm).mp3",
-        "./songs/KK/k.k._-_zindagi_ne_zindagi_bhar_ghum_diye_(mp3.pm)%20(2).mp3"
+        "./songs/KK/ Ajab Si.mp3",
+        "./songs/KK/Dil Ibaadat.mp3",
+        "./songs/KK/Haan Tu Hain.mp3",
+        "./songs/KK/Khuda Jaane.mp3",
+        "./songs/KK/Kya Mujhe Pyar Hai.mp3",
+        "./songs/KK/Labon Ko.mp3",
+        "./songs/KK/Pal.mp3",
+        "./songs/KK/Piya Aaye Na.mp3",
+        "./songs/KK/Tu Hi Meri Shab Hai.mp3",
+        "./songs KK/Zara Sa.mp3",
+        "./songs/KK/zindagi ne zindagi bhar ghum diye.mp3"
     ],
 
     "Pritam": [
-        "./songs/Pritam/Bandhu%202%20Cocktail%202%20128%20Kbps.mp3",
-        "./songs/Pritam/Judai%20Jannat%20320%20Kbps.mp3",
-        "./songs/Pritam/Mashooqa%20Cocktail%202%20128%20Kbps.mp3",
-        "./songs/Pritam/Once_Upon_A_Time_In_Mumbaai_Dobaara_-_Ye_Tune_Kya_Kiya_Javed_Bashir_(mp3.pm).mp3",
-        "./songs/Pritam/Tera%20Mera%20Rishta%20Awarapan%202%20128%20Kbps.mp3",
-        "./songs/Pritam/Tujhko%20Cocktail%202%20128%20Kbps.mp3"
+        "./songs/Pritam/Bandhu 2.mp3",
+        "./songs/Pritam/Judai Jannat.mp3",
+        "./songs/Pritam/Mashooqa.mp3",
+        "./songs/Pritam/Tera Mera Rishta.mp3",
+        "./songs/Pritam/Tujhko.mp3",
+        "./songs/Pritam/Ye Tune Kya Kiya.mp3"
+    ],
+
+
+    "The Weeknd": [
+        "./songs/The Weeknd/Blinding Lights.mp3",
+        "./songs/The Weeknd/One Of The Girls.mp3",
+        "./songs/The Weeknd/Starboy.mp3",
+        "./songs/The Weeknd/Die For You.mp3",
+        "./songs/The Weeknd/The-Abyss.mp3",
+        "./songs/The Weeknd/Timeless.mp3"
     ]
 };
 
