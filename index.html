@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saulgood-vibe | Music for everyone</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/utility.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="shortcut icon" href="/svg/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+
+        <div class="overlay" id="overlay"></div>
+
+        <div class="left" id="left">
+            <div class="home bg-grey rounded">
+                <div class="logo"><img src="/svg/logo.svg" alt="logo"></div>
+                <ul>
+                    <li class="homeCls"><img id="home" class="invert" src="/svg/home.svg" alt="Home">Home</li>
+                    <li class="searchCls"><img id="search" class="invert" src="/svg/search.svg" alt="Search">Search</li>
+                </ul>
+
+            </div>
+            <div class="library bg-grey rounded">
+                <div class="heading">
+                    <img class="invert" src="/svg/playlist.svg" alt="Library">
+                    <h2>Your library</h2>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/user-guidelines/"><span>Privacy Center</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <div class="nav">
+
+                    <div class="search">
+                        <input type="text" placeholder="🔍︎ Search for songs, artists or albums">
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+
+            <div class="sgv-playlists">
+                <h1>SG-Vibe Playlists</h1>
+
+
+                <div class="cardContainer" id="cardContainer">
+                    <div class="card" data-playlist="KK">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/thisisv3/4fEkbug6kZzzJ8eYX6Kbbp/en"
+                            alt="">
+                        <h3>Playlist</h3>
+                        <p>This is KK</p>
+                    </div>
+                    
+                    <div class="card" data-playlist="Arijit Singh">
+                        <img src="svg/Arijit singh.jpg"
+                        alt="">
+                        <h3>Arijit Singh</h3>
+                        <p>Top songs by Arijit Singh</p>
+                    </div>
+
+
+                    <div class="card" data-playlist="Pritam">
+                        <img src="svg/Pritam.jpg"
+                            alt="">
+                        <h3>Pritam</h3>
+                        <p>Top songs by pritam</p>
+                    </div>
+                    
+                </div>
+                <div class="songsView hidden" id="songsView">
+                    <button id="backBtn">← Back </button>
+                    <h2 id="songsViewTitle"></h2>
+                    <ul id="songList">
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="playbar">
+                <div class="songinfo">
+                    <p id="songName" class="song-title"></p>
+                </div>
+                <div class="songbuttons">
+                    <img id="prevBtn" src="playbar/prev.svg" alt="Previous">
+                    <img id="playBtn" src="playbar/play.svg" alt="Play">
+                    <img id="nextBtn" src="playbar/next.svg" alt="Next">
+                </div>
+                <div class="wrap">
+                    <div class="player">
+                        <span id="current">0:00</span>
+                        <div class="bar" id="bar">
+                            <div class="fill" id="fill"></div>
+                            <div class="dot" id="dot"></div>
+                        </div>
+                        <span id="duration">3:39</span>
+                    </div>
+                </div>
+                <div class="volume">
+                    <button id="volBtn">🔊</button>
+                    <input type="range" id="volSlider" min="0" max="1" step="0.01" value="1">
+                </div>
+            </div>
+        </div>
+
+        <audio id="audio" src="your-song.mp3"></audio>
+    </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

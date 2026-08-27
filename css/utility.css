@@ -1,0 +1,75 @@
+.border {
+  border: 2px solid red;
+  margin: 3px;
+}
+
+.flex {
+  display: flex;
+}
+
+.j-c {
+  justify-content: center;
+}
+
+.a-i {
+  align-items: center;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+/* Works in Chrome, Edge, Safari, Opera */
+::-webkit-scrollbar {
+  display: none;
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 6px;
+  border: 3px solid #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6a6a6a;
+}
+
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}
+
+/* Works in Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: #4a4a4a #1a1a1a;
+}
+
+/* Playlists */
+
+.hidden {
+  display: none;
+}
+
+.songsView ul {
+  list-style: none;
+  margin-top: 16px;
+}
+
+.songsView li {
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.songsView li:hover {
+  background: #252525;
+}
+
+ #backBtn{
+ }
