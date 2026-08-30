@@ -62,14 +62,15 @@
 }
 
 .songsView li {
-  padding: 10px;
+  padding: 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+#songsViewTitle {
+  margin-top: 37px;
 }
 
 .songsView li:hover {
   background: #252525;
 }
-
- #backBtn{
- }
