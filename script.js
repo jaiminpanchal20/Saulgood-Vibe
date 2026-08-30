@@ -11,7 +11,7 @@ const playlists = {
         "./songs/Arijit Singh/Phir Bhi Tumko Chaahunga Half Girlfriend.mp3",
         "./songs/Arijit Singh/Samjhawan Humpty Sharma Ki Dulhania.mp3"
     ],
-    
+
     "KK": [
         "./songs/KK/Ajab Si.mp3",
         "./songs/KK/Dil Ibaadat.mp3",
@@ -83,11 +83,6 @@ function fmt(t) {
 function loadSong(songUrl, index = -1) {
 
     audio.src = songUrl;
-
-    if (index !== -1) {
-        currentIndex = index;
-    }
-
     audio.play();
 
     playBtn.src = "./playbar/pause.svg";
@@ -326,8 +321,7 @@ prevBtn.addEventListener("click", () => {
         currentIndex--;
 
         loadSong(
-            playlist[currentIndex],
-            currentIndex
+            playlist[currentIndex]
         );
     }
 });
@@ -342,8 +336,8 @@ nextBtn.addEventListener("click", () => {
         currentIndex++;
 
         loadSong(
-            playlist[currentIndex],
-            currentIndex
+            playlist[currentIndex]
+
         );
     }
 });
