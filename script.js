@@ -43,7 +43,42 @@ const playlists = {
         "./songs/The Weeknd/Die For You.mp3",
         "./songs/The Weeknd/The-Abyss.mp3",
         "./songs/The Weeknd/Timeless.mp3"
-    ]
+    ],
+
+    "Lana Del Rey": [
+        "./songs/Lana Del Rey/Art Deco.mp3",
+        "./songs/Lana Del Rey/Blue Jeans.mp3",
+        "./songs/Lana Del Rey/Body Electric.mp3",
+        "./songs/Lana Del Rey/Born To Die.mp3",
+        "./songs/Lana Del Rey/Burning Desire.mp3",
+        "./songs/Lana Del Rey/Carmen.mp3",
+        "./songs/Lana Del Rey/Cherry.mp3",
+        "./songs/Lana Del Rey/Cinnamon Girl.mp3",
+        "./songs/Lana Del Rey/Diet Mountain Dew.mp3",
+        "./songs/Lana Del Rey/Fucked My Way Up To The Top.mp3",
+        "./songs/Lana Del Rey/Lust For Life.mp3",
+        "./songs/Lana Del Rey/Million Dollar Man.mp3",
+        "./songs/Lana Del Rey/Salvatore.mp3",
+        "./songs/Lana Del Rey/Say Yes To Heaven.mp3",
+        "./songs/Lana Del Rey/Shades Of Cool.mp3",
+        "./songs/Lana Del Rey/Summertime Sadness.mp3",
+        "./songs/Lana Del Rey/West Coast.mp3",
+        "./songs/Lana Del Rey/White Mustang.mp3"
+    ],
+
+    "Billie Eilish": [
+    "./songs/Billie Eilish/Bad Guy.mp3",
+    "./songs/Billie Eilish/Birds Of A Feather.mp3",
+    "./songs/Billie Eilish/Blue.mp3",
+    "./songs/Billie Eilish/Getting Older.mp3",
+    "./songs/Billie Eilish/I Didn't Change My Number.mp3",
+    "./songs/Billie Eilish/I Don't Wanna Be You Anymore.mp3",
+    "./songs/Billie Eilish/Lovely.mp3",
+    "./songs/Billie Eilish/Ocean Eyes.mp3",
+    "./songs/Billie Eilish/The 30th.mp3",
+    "./songs/Billie Eilish/What Was I Made For.mp3",
+    "./songs/Billie Eilish/Wildflower.mp3"
+]
 };
 
 let playlist = [];

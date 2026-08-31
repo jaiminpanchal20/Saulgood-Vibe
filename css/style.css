@@ -180,7 +180,7 @@ body {
 .cardContainer {
     margin: 20px 3px;
     display: flex;
-    gap: 10px;
+    gap: 30px;
     flex-wrap: wrap;
     overflow-y: auto;
     max-height: 60vh;
