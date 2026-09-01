@@ -6,17 +6,16 @@
     font-family: "Basic", sans-serif;
     box-sizing: border-box;
 }
-
 body {
     color: rgb(0, 0, 0);
-    overflow-x: hidden;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .container {
-    min-height: 100vh;
+    height: 100vh;
+    overflow: hidden;
 }
-
-/* ---------- Sidebar ---------- */
 
 .left {
     width: 25vw;
@@ -24,6 +23,9 @@ body {
     max-width: 320px;
     padding: 15px;
     transition: left .3s ease;
+
+    height: 100vh;
+    overflow: hidden;
 }
 
 .right {
@@ -32,8 +34,11 @@ body {
     margin: 16px 0px;
     position: relative;
     min-width: 0;
+
+    height: calc(100vh - 32px);
+    overflow-y: auto;
+
     padding-bottom: 90px;
-    /* room for fixed playbar */
 }
 
 .logo img {
