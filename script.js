@@ -37,12 +37,24 @@ const playlists = {
 
 
     "The Weeknd": [
+        "./songs/The Weeknd/After Hours.mp3",
         "./songs/The Weeknd/Blinding Lights.mp3",
-        "./songs/The Weeknd/One Of The Girls.mp3",
-        "./songs/The Weeknd/Starboy.mp3",
+        "./songs/The Weeknd/Call Out My Name.mp3",
+        "./songs/The Weeknd/Crocodile Tears.mp3",
         "./songs/The Weeknd/Die For You.mp3",
-        "./songs/The Weeknd/The-Abyss.mp3",
-        "./songs/The Weeknd/Timeless.mp3"
+        "./songs/The Weeknd/Faith.mp3",
+        "./songs/The Weeknd/Heartless.mp3",
+        "./songs/The Weeknd/In Your Eyes.mp3",
+        "./songs/The Weeknd/One Of The Girls.mp3",
+        "./songs/The Weeknd/Save Your Tears.mp3",
+        "./songs/The Weeknd/Starboy.mp3",
+        "./songs/The Weeknd/Stargirl Interlude.mp3",
+        "./songs/The Weeknd/The Hills.mp3",
+        "./songs/The Weeknd/The Abyss.mp3",
+        "./songs/The Weeknd/Timeless.mp3",
+        "./songs/The Weeknd/Until I Bleed Out.mp3",
+        "./songs/The Weeknd/House Of Balloons.mp3",
+        "./songs/The Weeknd/Till Dawn.mp3"
     ],
 
     "Lana Del Rey": [
@@ -67,18 +79,28 @@ const playlists = {
     ],
 
     "Billie Eilish": [
-    "./songs/Billie Eilish/Bad Guy.mp3",
-    "./songs/Billie Eilish/Birds Of A Feather.mp3",
-    "./songs/Billie Eilish/Blue.mp3",
-    "./songs/Billie Eilish/Getting Older.mp3",
-    "./songs/Billie Eilish/I Didn't Change My Number.mp3",
-    "./songs/Billie Eilish/I Don't Wanna Be You Anymore.mp3",
-    "./songs/Billie Eilish/Lovely.mp3",
-    "./songs/Billie Eilish/Ocean Eyes.mp3",
-    "./songs/Billie Eilish/The 30th.mp3",
-    "./songs/Billie Eilish/What Was I Made For.mp3",
-    "./songs/Billie Eilish/Wildflower.mp3"
-]
+        "./songs/Billie Eilish/Bad Guy.mp3",
+        "./songs/Billie Eilish/Birds Of A Feather.mp3",
+        "./songs/Billie Eilish/Blue.mp3",
+        "./songs/Billie Eilish/Getting Older.mp3",
+        "./songs/Billie Eilish/I Didn't Change My Number.mp3",
+        "./songs/Billie Eilish/I Don't Wanna Be You Anymore.mp3",
+        "./songs/Billie Eilish/Lovely.mp3",
+        "./songs/Billie Eilish/Ocean Eyes.mp3",
+        "./songs/Billie Eilish/The 30th.mp3",
+        "./songs/Billie Eilish/What Was I Made For.mp3",
+        "./songs/Billie Eilish/Wildflower.mp3"
+    ],
+
+    "Anuv Jain": [
+        "./songs/Anuv Jain/Afsos.mp3",
+        "./songs/Anuv Jain/Antariksh.mp3",
+        "./songs/Anuv Jain/Arz Kiya Hai.mp3",
+        "./songs/Anuv Jain/Baarishein.mp3",
+        "./songs/Anuv Jain/Husn.mp3",
+        "./songs/Anuv Jain/Inaam.mp3",
+        "./songs/Anuv Jain/Jo Tum Mere Ho.mp3"
+    ]
 };
 
 let playlist = [];
